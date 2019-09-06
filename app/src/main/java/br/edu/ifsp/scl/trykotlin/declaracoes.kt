@@ -8,6 +8,9 @@ fun  main(args: Array<String>){
     // imprimir com string template
     println("$frase")
 
+    // alterando valor da variavel
+    frase = "Mudou frase"
+
     println("${frase}")
 
     // imprimir com chamada de funcao
